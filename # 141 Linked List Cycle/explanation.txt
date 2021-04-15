@@ -1,0 +1,1 @@
+Have two pointers, one fast and one slow. The idea is the fast pointer moves through the linked list faster than the slower pointer, and IF the linked list was cyclic, then there will be a point in time that the fastPtr catches up to the slowPtr and slowPtr == fastPtr.
