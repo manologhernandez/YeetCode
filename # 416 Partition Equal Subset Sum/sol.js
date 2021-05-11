@@ -2,7 +2,7 @@
 
 
 function canPartition(nums){
-    // backtracking
+    // backtracking (BRUTE FORCE SLOW)
     if (arr1.reduce((a, b) => a + b, 0) == nums.reduce((a, b) => a + b, 0)){
         console.log(arr1, nums)
         return true
